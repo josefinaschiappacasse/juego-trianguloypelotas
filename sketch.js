@@ -7,9 +7,9 @@ function setup() {
   /*g = map(mouseX, 0, 400, 90, 255);
   g = map(mouseY, 0, 400, 255, 90);
 
-  background(0, g, 0);*/
-  background(245, 245, 219);
-  
+  background(0, g, 0);
+  background(245, 245, 219);*/
+  background(255);
 }
 
 function draw() {
@@ -17,15 +17,16 @@ function draw() {
   //figuras
   stroke("brown");
   strokeWeight(1);
-  fill(245, 245, 219, 75);
+  fill(255, 70);
+  //fill(245, 245, 219, 75);
   ellipse(mouseX, 48, 50, 50);
   ellipse(352, mouseY, 50, 50);
 
-  fill(245, 245, 219, 75);
+  //fill(245, 245, 219, 75);
   ellipse(48, mouseY, 50, 50);
   ellipse(mouseX, 352, 50, 50);
   
-  fill(245, 245, 219, 75);
+  //fill(245, 245, 219, 75);
   triangle(mouseX, mouseY, 200, 150, 200, 230)
 
 /* angleMode(DEGREES); 
@@ -45,8 +46,9 @@ function draw() {
 function mousePressed() {
   /*g = map(mouseX, 0, 400, 90, 255);
  g = map(mouseY, 0, 400, 255, 90);*/
-
-  background(245, 245, 219);
+   
+  background(255);
+  //background(245, 245, 219);
   //background(0, g, 0);
 }
 //function mousePressed() {
