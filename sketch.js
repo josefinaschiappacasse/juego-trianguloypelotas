@@ -1,9 +1,10 @@
 /*Dan Shiffman, the CodingTrain
 var g = 0;*/
-
+let sketch;
 function setup() {
   //angleMode(RADIANS);
-  createCanvas(400, 400);
+  sketch = createCanvas(400, 400);
+  sketch.parent("p5");
   /*g = map(mouseX, 0, 400, 90, 255);
   g = map(mouseY, 0, 400, 255, 90);
 
